@@ -219,12 +219,17 @@ header {
 
 .search-filter-btn-icon .fa-child-reaching {
     font-size: 22px; /* Fix icon size on button "familial" */
+    vertical-align: -1px;
+}
+
+.search-filter-btn-icon {
+    padding: 8px;
 }
 
 .search-filter-btn-icon i {
-    width: 35px;
     color: var(--blue);
     transition: transform 250ms;
+    -moz-padding-start: 2px; /* Fix start position in firefox */
 }
 
 .search-filter-btn-title {
