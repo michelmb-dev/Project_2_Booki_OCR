@@ -174,6 +174,7 @@ header {
     height: 52px;
     margin-right: 25px;
     margin-bottom: 10px;
+    padding: 0;
     border: var(--grey-dark) solid 2px;
     border-radius: 25px;
     transition: all 250ms;
@@ -222,18 +223,14 @@ header {
 }
 
 .search-filter-btn-icon .fa-child-reaching {
-    font-size: 22px; /* Fix icon size on button "familial" */
-    vertical-align: -2px;
-}
-
-.search-filter-btn-icon {
-    padding: 8px;
+    vertical-align: -2px; /* Fix Vertical position for icon "familial" */
 }
 
 .search-filter-btn-icon i {
+    width: 46px;
     color: var(--blue);
     transition: transform 250ms;
-    -moz-padding-start: 2px; /* Fix start position in firefox */
+
 }
 
 .search-filter-btn-title {
@@ -264,6 +261,7 @@ header {
 }
 
 .search-info-icon i {
+    width: 20px;
     vertical-align: middle;
 }
 
@@ -780,8 +778,7 @@ footer {
     }
 
     .search-filter-btn-title {
-        padding-left: 10px;
-        padding-right: 5px;
+        padding: 8px;
     }
 
     /* HOUSINGS SECTION */
