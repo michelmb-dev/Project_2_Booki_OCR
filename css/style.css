@@ -222,10 +222,6 @@ header {
     transform: rotate(1turn);
 }
 
-.search-filter-btn-icon .fa-child-reaching {
-    vertical-align: -2px; /* Fix Vertical position for icon "familial" */
-}
-
 .search-filter-btn-icon i {
     width: 46px;
     color: var(--blue);
