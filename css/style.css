@@ -346,7 +346,7 @@ header {
 }
 
 .housing-card-stars {
-    color: var(--grey);
+    color: var(--grey-dark);
     margin-top: 10px;
 }
 
