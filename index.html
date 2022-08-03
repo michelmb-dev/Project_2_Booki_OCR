@@ -21,7 +21,12 @@
 
 <!-- Section containing the site logo and navigation -->
 <header>
-    <a href="index.html" class="header-logo"><img src="images/logo/Booki.png" alt="logo du site Booki"></a>
+    <a href="index.html" class="header-logo">
+        <picture>
+            <source media="(min-width: 769px)" srcset="images/logo/Booki@3x.png">
+            <img src="images/logo/Booki.png" alt="logo du site Booki">
+        </picture>
+    </a>
     <nav class="header-nav">
         <!-- TODO: For "active link" add the class "header-nav-link-active" already defined in the CSS file -->
         <a class="header-nav-link" href="#housing">Hébergements</a>

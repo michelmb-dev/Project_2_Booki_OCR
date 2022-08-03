@@ -66,7 +66,7 @@ header {
 
 .header-logo {
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .header-logo img {
@@ -93,7 +93,6 @@ header {
     border-top: var(--blue) 3px solid;
     color: var(--blue);
 }
-
 
 /* TODO: Class is not define in html */
 .header-nav-link-active {
@@ -226,7 +225,6 @@ header {
     width: 46px;
     color: var(--blue);
     transition: transform 250ms;
-
 }
 
 .search-filter-btn-title {
@@ -273,6 +271,7 @@ header {
     background: var(--grey);
     padding: 40px 30px;
     border-radius: 20px;
+    height: 100%;
 }
 
 .housing-title {
@@ -341,9 +340,11 @@ header {
     font-size: 14px;
     margin-bottom: auto;
 }
+
 .housing-card-price {
-    font-weight: 700;
+    font-weight: 500;
 }
+
 .housing-card-stars {
     color: var(--grey);
     margin-top: 10px;
@@ -376,9 +377,8 @@ header {
 
 .housing-is-popular .housing-card {
     flex-direction: row;
-    flex: 1 1 100%;
+    flex-basis: 100%;
     height: 144px;
-
 }
 
 .housing-is-popular .housing-card .housing-card-thumbnail {
@@ -455,7 +455,6 @@ header {
 .activities-large-card img {
     max-height: 385px;
     min-width: 190px;
-
 }
 
 .activities-small-card-1 img {
@@ -567,6 +566,7 @@ footer {
         width: 100%;
     }
 
+
     /* ACTIVITIES SECTION */
     .activities-cards-main-wrapper {
         flex-wrap: wrap;
@@ -609,6 +609,10 @@ footer {
         justify-content: center;
         align-items: center;
         padding: 0;
+    }
+
+    .header-logo {
+        margin-left: 30px;
     }
 
     .header-nav {
