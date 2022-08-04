@@ -16,10 +16,11 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
+
 }
 
 body {
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
 
@@ -496,7 +497,6 @@ header {
     box-shadow: 0 3px 15px var(--shadow-dark);
 }
 
-
 /* FOOTER */
 footer {
     background: var(--grey);
@@ -528,7 +528,8 @@ footer {
     margin-bottom: 10px;
 }
 
-/* RESPONSIVE */
+
+/* RESPONSIVE TABLET */
 @media screen and (max-width: 992px) {
 
     /* HOUSING SECTION */
@@ -539,7 +540,6 @@ footer {
     .housing-card {
         flex-basis: 40%;
     }
-
 
     /* HOUSING IS POPULAR */
     .housing-is-popular {
@@ -583,7 +583,6 @@ footer {
         max-width: 540px;
     }
 
-
     /* FOOTER SECTION */
     .footer-wrapper {
         flex-direction: column;
@@ -597,8 +596,9 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) {
-
+/* RESPONSIVE MOBILE */
+@media screen and (max-width: 767px) {
+    /* For all sections */
     section {
         margin: 20px;
     }
@@ -666,7 +666,6 @@ footer {
         padding: 8px;
     }
 
-
     /* HOUSING SECTION */
     .housing {
         gap: 10px;
@@ -703,20 +702,10 @@ footer {
         margin-top: 0;
     }
 
-    /* ACTIVITIES SECTION */
     .activities-cards-main-wrapper {
         gap: 24px;
         max-height: 100%;
     }
-
-    /* FOOTER */
-    .footer-wrapper {
-        margin-left: 0;
-    }
-
-}
-
-@media screen and (max-width: 585px) {
 
     /* Common rules for all images */
     .activities-cards-main-wrapper * img {
@@ -748,4 +737,10 @@ footer {
         width: 100%;
         height: 100%;
     }
+
+    /* FOOTER */
+    .footer-wrapper {
+        margin-left: 0;
+    }
+
 }
