@@ -86,8 +86,8 @@ header {
     align-items: center;
     width: 160px;
     height: 60px;
-    border-top: var(--grey) 3px solid;
-    transition: all 250ms;
+    border-top: transparent 3px solid;
+    transition: border-top-color 250ms;
 }
 
 .header-nav-link:hover {
@@ -626,6 +626,7 @@ footer {
         padding-top: 15px;
         border-top: none;
         border-bottom: var(--grey) 3px solid;
+        transition: border-bottom-color 250ms;
     }
 
     .header-nav-link:hover {
